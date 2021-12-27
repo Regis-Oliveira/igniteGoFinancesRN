@@ -14,7 +14,7 @@ import {
 	 title: string;
 	 amount: string;
 	 lastTransaction: string;
-	 type: "up" | "down" | "total"
+	 type: "up" | "down" | "total";
  }
 
  const icon = {
@@ -33,7 +33,10 @@ export function HighlightCard({
 		<Container type={type}>
 			<Header>
 				<Title type={type}>{title}</Title>
-				<Icon name={icon[type]} />
+				<Icon 
+					name={icon[type]} 
+					type={type} 
+				/>
 			</Header>
 
 			<Footer>
