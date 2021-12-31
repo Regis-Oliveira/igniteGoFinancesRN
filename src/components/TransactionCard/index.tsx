@@ -13,11 +13,11 @@ import {
 } from './styles';
 
 export interface TransactionCardsProps {
-		type: 'positive' | 'negative';
-		name: string;
-		amount: string;
-		category: string;
-		date: string;
+	type: 'positive' | 'negative';
+	name: string;
+	amount: string;
+	category: string;
+	date: string;
 }
 
 interface Props {
