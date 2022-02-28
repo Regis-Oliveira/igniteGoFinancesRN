@@ -14,7 +14,7 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   width: 100%;
-  height: ${RFPercentage(42)}px;
+  height: ${RFPercentage(40)}px;
 
   background-color: ${({ theme }) => theme.colors.primary};
 `;
@@ -23,7 +23,7 @@ export const UserWrapper = styled.View`
   width: 100%;
   
   padding: 0 24px;
-  margin-top: ${getStatusBarHeight() + RFValue(28)}px;
+  margin-top: ${getStatusBarHeight() + RFValue(20)}px;
 
   flex-direction: row;
   justify-content: space-between;
