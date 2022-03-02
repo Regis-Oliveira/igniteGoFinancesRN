@@ -36,7 +36,7 @@ $ cd igniteGoFinancesRN
 $ yarn install
 
 # execute with:
-$ yarn android / yarn ios
+$ expo start
 ```
 
 ### :tada: See the app executing on:
