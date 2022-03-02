@@ -4,8 +4,9 @@
   <img src="src/assets/logo.svg"/>
 </h1>
 
+<div align='center'>
 <img src="src/assets/goFinancesRN.gif" alt="Gif registering a finance"/>
-
+</div>
 <h3 align="center">
   App on ReactNative and social login with Google and Apple
 </h3> 
